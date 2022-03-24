@@ -8,19 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		10A53E956546DB50E22EF276 /* Pods_VolumeWheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4895FFF31CFE4EB0A09F362 /* Pods_VolumeWheel.framework */; };
+		1B1E9DFD27E373A2007DB368 /* CalculatePrecentageOfCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9DFC27E373A2007DB368 /* CalculatePrecentageOfCircle.swift */; };
+		1B1E9E0027E46957007DB368 /* ThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9DFF27E46957007DB368 /* ThumbLayer.swift */; };
 		1BDB4B7627E08DFE004DF2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B7527E08DFE004DF2BA /* AppDelegate.swift */; };
 		1BDB4B7F27E08E07004DF2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB4B7E27E08E07004DF2BA /* Assets.xcassets */; };
 		1BDB4B8227E08E07004DF2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB4B8027E08E07004DF2BA /* LaunchScreen.storyboard */; };
 		1BDB4B8D27E08F37004DF2BA /* VolumeWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B8C27E08F37004DF2BA /* VolumeWheelViewController.swift */; };
+		1BDB4B8F27E0904A004DF2BA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B8E27E0904A004DF2BA /* CircleView.swift */; };
+		1BDB4B9427E0B48D004DF2BA /* RoundToPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B9327E0B48D004DF2BA /* RoundToPlaces.swift */; };
+		1BDB4B9627E0B5A0004DF2BA /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B9527E0B5A0004DF2BA /* Angle.swift */; };
+		1BDB4B9827E0B5ED004DF2BA /* Degrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B9727E0B5ED004DF2BA /* Degrees.swift */; };
+		1BDB4B9A27E0B63E004DF2BA /* RemoveDecimalPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4B9927E0B63E004DF2BA /* RemoveDecimalPoint.swift */; };
+		1BDB4BFB27E32917004DF2BA /* DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BFA27E32917004DF2BA /* DegreesToRadians.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B1E9DFC27E373A2007DB368 /* CalculatePrecentageOfCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePrecentageOfCircle.swift; sourceTree = "<group>"; };
+		1B1E9DFF27E46957007DB368 /* ThumbLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbLayer.swift; sourceTree = "<group>"; };
 		1BDB4B7227E08DFE004DF2BA /* VolumeWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDB4B7527E08DFE004DF2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BDB4B7E27E08E07004DF2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDB4B8127E08E07004DF2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDB4B8327E08E07004DF2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDB4B8C27E08F37004DF2BA /* VolumeWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeWheelViewController.swift; sourceTree = "<group>"; };
+		1BDB4B8E27E0904A004DF2BA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		1BDB4B9327E0B48D004DF2BA /* RoundToPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundToPlaces.swift; sourceTree = "<group>"; };
+		1BDB4B9527E0B5A0004DF2BA /* Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
+		1BDB4B9727E0B5ED004DF2BA /* Degrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrees.swift; sourceTree = "<group>"; };
+		1BDB4B9927E0B63E004DF2BA /* RemoveDecimalPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDecimalPoint.swift; sourceTree = "<group>"; };
+		1BDB4BFA27E32917004DF2BA /* DegreesToRadians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreesToRadians.swift; sourceTree = "<group>"; };
 		1E7123F321B15A9FF9543C94 /* Pods-VolumeWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolumeWheel.release.xcconfig"; path = "Target Support Files/Pods-VolumeWheel/Pods-VolumeWheel.release.xcconfig"; sourceTree = "<group>"; };
 		3F1242019A8C434561E5B67B /* Pods-VolumeWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolumeWheel.debug.xcconfig"; path = "Target Support Files/Pods-VolumeWheel/Pods-VolumeWheel.debug.xcconfig"; sourceTree = "<group>"; };
 		E4895FFF31CFE4EB0A09F362 /* Pods_VolumeWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolumeWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +75,7 @@
 		1BDB4B7427E08DFE004DF2BA /* VolumeWheel */ = {
 			isa = PBXGroup;
 			children = (
+				1BDB4B9227E0B47B004DF2BA /* Utils */,
 				1BDB4B8A27E08EF6004DF2BA /* Views */,
 				1BDB4B8927E08EEC004DF2BA /* Controllers */,
 				1BDB4B7527E08DFE004DF2BA /* AppDelegate.swift */,
@@ -80,6 +97,8 @@
 		1BDB4B8A27E08EF6004DF2BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1BDB4B8E27E0904A004DF2BA /* CircleView.swift */,
+				1B1E9DFF27E46957007DB368 /* ThumbLayer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +109,19 @@
 				1BDB4B8C27E08F37004DF2BA /* VolumeWheelViewController.swift */,
 			);
 			path = VolumeWheelViewController;
+			sourceTree = "<group>";
+		};
+		1BDB4B9227E0B47B004DF2BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB4B9327E0B48D004DF2BA /* RoundToPlaces.swift */,
+				1BDB4B9527E0B5A0004DF2BA /* Angle.swift */,
+				1BDB4B9727E0B5ED004DF2BA /* Degrees.swift */,
+				1BDB4B9927E0B63E004DF2BA /* RemoveDecimalPoint.swift */,
+				1BDB4BFA27E32917004DF2BA /* DegreesToRadians.swift */,
+				1B1E9DFC27E373A2007DB368 /* CalculatePrecentageOfCircle.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		A208737DEBCF6496572D2727 /* Frameworks */ = {
@@ -223,8 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDB4B9A27E0B63E004DF2BA /* RemoveDecimalPoint.swift in Sources */,
+				1B1E9DFD27E373A2007DB368 /* CalculatePrecentageOfCircle.swift in Sources */,
+				1BDB4B8F27E0904A004DF2BA /* CircleView.swift in Sources */,
+				1BDB4B9427E0B48D004DF2BA /* RoundToPlaces.swift in Sources */,
+				1B1E9E0027E46957007DB368 /* ThumbLayer.swift in Sources */,
 				1BDB4B8D27E08F37004DF2BA /* VolumeWheelViewController.swift in Sources */,
+				1BDB4B9627E0B5A0004DF2BA /* Angle.swift in Sources */,
+				1BDB4BFB27E32917004DF2BA /* DegreesToRadians.swift in Sources */,
 				1BDB4B7627E08DFE004DF2BA /* AppDelegate.swift in Sources */,
+				1BDB4B9827E0B5ED004DF2BA /* Degrees.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
